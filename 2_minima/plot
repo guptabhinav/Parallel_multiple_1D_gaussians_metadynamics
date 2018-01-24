@@ -1,0 +1,8 @@
+  set xlabel 'x'
+  set ylabel 'y'
+  set zrange [0:0.005]
+  set contour both
+  set cntrparam levels incremental 0,0.0001,0.001
+  set view 0,0
+  splot [-1.5:1.5] [-2:2] 0.001*(x**2-1)**2+0.5*0.001*y**2
+  replot 'energy_file' us 2:3:5 w lp  

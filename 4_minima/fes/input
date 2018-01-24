@@ -1,0 +1,3 @@
+ -2.5, 2.5, 0.1               ! xmin, xmax, xbinsize
+ -2.5, 2.5, 0.1               ! ymin, ymax, ybinsize
+ 3000, 300                    ! deltaT, temperature

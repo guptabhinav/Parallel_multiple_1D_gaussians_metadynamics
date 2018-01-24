@@ -1,0 +1,7 @@
+1, 300                                                   ! no of atoms, system_temperature(K)
+300, 50                                                 ! bath_temperature(K), dt
+500000, 0.1                                              ! steps, friction coefficient
+0.00001,0.00001,0.1,0.1, 3000                                        ! h, ds, deltaT
+1.0 -1.0                                                 ! x,y
+
+! the mass for the particle was used to be 100,000 au. and the fricition coefficient is 0.3 and time step is 10.
